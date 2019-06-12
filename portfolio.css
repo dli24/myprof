@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: purple;
+    /* border: 1px solid red; */
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: purple;
+}
+.myname{
+    height: 20vh;
+}
+.myname h2{
+    text-align: center;
+    color: purple;
+}
+.mycontact{
+    text-align: center;
+}
+.mycontact a{
+    font-size: 2em;
+    color: black;
+}
+.mycontact a:hover{
+    font-size: 3em;
+
+}
+h1{
+    text-align: center;
+    z-index: 300;
+}
+
+.home{
+    height: 200vh;
+    width: 100vw;
+    background-image: url("./images/home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    z-index: 0;
+}
+.aboutme {
+    text-align: center;
+    margin: 1.5em 10%;
+    color: purple;
+}
+.myproject{
+    margin-top: 1em;
+    text-align: center;
+    color: purple;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+}
+.activator{
+    height: 200px;
+    width: 200px;
+}
+.card-content a{
+    text-decoration: none;
+}
+.skill h2{
+    margin-top: 1em;
+    text-align: center;
+    color: purple;  
+}
+.skillset{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100vw;
+}
+.skillset div{
+    margin-left: 10%;
+}
